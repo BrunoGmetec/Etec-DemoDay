@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seleção de Disciplina e Conteúdo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Selecionar Disciplina e Conteúdo</h2>
+
+    <select id="disciplina">
+      <option value="">Selecione a Disciplina</option>
+      <option value="portugues">Português</option>
+      <option value="programacao">Programação</option>
+      <option value="geografia">Geografia</option>
+      <!-- Adicione mais opções de disciplinas conforme necessário -->
+    </select>
+
+    <select id="conteudo">
+        <option value="">Selecione o Conteúdo</option>
+
+    if (disciplina==portugues){
+        <option value="gramatica">Gramática</option>
+        <option value="pontuacao">Pontuação</option>
+    }
+    else if (disciplina==programacao){
+        <option value="logica">Lógica de Programação</option>
+        <option value="javascript">JavaScript</option>
+    }  
+    else (disciplina==geografia){
+        <option value="plantas">Plantas</option>
+        <option value="terra">Terra</option>
+    }  
+    </select>
+
+    <button id="selecionar">Selecionar</button>
+  </div>
+
+</body>
+</html>
